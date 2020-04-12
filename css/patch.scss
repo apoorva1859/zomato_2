@@ -1,0 +1,22 @@
+/* the patch hides GA selenium fixes and maintains desired UI. */
+
+.patch001, #patch007, .patch005{
+    display: none;
+}
+
+/* patch007 */
+
+.widget div div button:nth-child(2) {
+    /* Do not use 'display' or 'visibility', the GA_selenium tool still pops out error! */
+
+    margin: -5px;
+    border: 0;
+    width: 0;
+    padding: 0;
+    font-size: 1px;
+}
+
+.widget {
+    /* restore p-2 class */
+    padding: 0.5rem;
+}

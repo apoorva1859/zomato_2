@@ -1,0 +1,201 @@
+@use './reset.scss';
+
+/* Add your css here */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f3f3f3;
+}
+
+.topbarimg
+{
+    width: 2rem;
+}
+
+.banner {
+    background-image: url("../images/bg.jpg"),;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode:darken;
+    background-color:#0000006b;
+}
+
+.banner-section1
+{
+    a
+    {
+        color: white;
+    }
+    button
+    {
+        border: 1px solid  white;
+        color: white;
+        border-radius: none;
+    }
+}
+
+.banner-section2 
+{
+    h1{
+        font-size: 28px;
+        color: white;
+        font-weight: lighter;
+        text-align: center;
+    }
+    img{
+        width: 120px;
+        height: 120px;
+    }
+}
+
+.collection
+{
+    h1{
+        font-size: 23px;
+    }
+    small
+    {
+        font-size: 18px;
+        color: gray;
+    }
+    img{
+        width: 100%;
+    }
+}
+
+.collection_item
+{
+    .d-flex
+    {
+        border: 1.5px solid #00000021;
+        background-color: white;
+    }
+    
+}
+
+.collbutton
+{
+    border: 1.5px solid #00000021;
+    background-color: white;
+    color: rgba(158, 18, 18, 0.89);
+}
+
+.collection_item
+{
+    .d-flex
+    {
+        border: 1px solid #00000021;
+        background-color: white;
+    }
+    
+}
+
+.categories
+{
+    h2{
+        font-size: 23px;
+    }
+    p
+    {
+        font-size: 18px;
+        color: gray;
+    }
+}
+
+.category-list
+{
+    height: 10rem;
+    border: 1px solid #00000021;
+    background-color:white;
+    img{
+        width: 3rem;
+        &:hover
+        {
+            opacity: 0.5;
+        }
+    }
+    li
+    {
+        cursor: pointer;
+    }
+}
+
+.main-widget
+{
+    h1
+    {
+        font-size: 23px;
+    }
+    small
+    {
+        font-size: 18px;
+        color: gray;
+    }
+    .subwidget
+    {
+            background-color: #fff; 
+            border: 1px solid #00000021;
+            border-radius: 2px;
+            h4{
+                font-size: 18px;
+            }
+            
+    }
+}
+
+.localities
+{
+    h2{
+        font-size: 22px;
+    }
+    p
+    {
+        font-size: 18px;
+        color: gray;
+    }
+}
+
+.locality-list
+{
+    border: 1px solid #00000021;
+    background-color:white;
+    text-align: center;
+    li
+    {
+        text-align: left;
+        margin: 1rem 0 0 0;
+    }
+}
+
+footer
+{
+    background-color: black;
+    color: white;
+    img
+    { 
+        width: 4rem;
+        border-radius: 10px;
+    }
+}
+
+.footerwidget
+{
+    ul{
+        li{
+            cursor: pointer;
+            margin: 1rem 0 0 0;
+            text-align: left;
+            color: rgba(255, 255, 255, 0.5);
+        }
+    }
+}
+
+.widgettitle
+{
+    font-size: 22px;
+    font-weight:800;
+}
+.icon
+{
+    color:white;
+}
